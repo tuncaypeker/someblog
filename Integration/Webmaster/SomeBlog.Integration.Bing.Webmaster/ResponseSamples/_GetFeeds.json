@@ -1,0 +1,16 @@
+{
+  "IsSucceed": true,
+  "Message": "",
+  "Data": [
+    {
+      "Compressed": false,
+      "FileSize": 0,
+      "LastCrawled": "2021-10-08T07:01:08Z",
+      "Status": "Success",
+      "Submitted": "2021-10-11T07:19:35.3729418Z",
+      "Type": "Sitemap",
+      "Url": "https://evdekorasyonlari.net/sitemap.xml",
+      "UrlCount": 1360
+    }
+  ]
+}

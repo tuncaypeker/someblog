@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "SomeBlog.Translate.Google.PrivateApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58322;http://localhost:58323"
+    }
+  }
+}

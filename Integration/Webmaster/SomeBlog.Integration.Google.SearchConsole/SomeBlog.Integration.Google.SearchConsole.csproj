@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Indexing.v3" Version="1.55.0.2224" />
+    <PackageReference Include="Google.Apis.SearchConsole.v1" Version="1.54.0.2235" />
+  </ItemGroup>
+
+</Project>

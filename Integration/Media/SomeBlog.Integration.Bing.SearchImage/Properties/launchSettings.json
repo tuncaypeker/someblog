@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "SomeBlog.Integration.Bing.SearchImage": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58290;http://localhost:58291"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Caching\SomeBlog.Infrastructure.Caching.MemoryCache\SomeBlog.Infrastructure.Caching.MemoryCache.csproj" />
+    <ProjectReference Include="..\Infrastructure\SomeBlog.Infrastructure\SomeBlog.Infrastructure.csproj" />
+    <ProjectReference Include="..\SomeBlog.Data\SomeBlog.Data.csproj" />
+    <ProjectReference Include="..\SomeBlog.Model\SomeBlog.Model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "SomeBlog.Translate.Google.Chrome": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58286;http://localhost:58287"
+    }
+  }
+}

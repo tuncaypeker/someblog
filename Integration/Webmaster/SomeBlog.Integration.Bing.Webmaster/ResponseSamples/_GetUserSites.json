@@ -1,0 +1,18 @@
+{
+  "IsSucceed": true,
+  "Message": "",
+  "Data": [
+    {
+      "AuthenticationCode": "0964AC538E8315A3821BDEBD5DF912DA",
+      "DnsVerificationCode": "003445680ef456fa4b7d3735a10ff033.evdekorasyonlari.net",
+      "IsVerified": true,
+      "Url": "https://evdekorasyonlari.net/"
+    },
+    {
+      "AuthenticationCode": "0964AC538E8315A3821BDEBD5DF912DA",
+      "DnsVerificationCode": "858b1b20c2e779ccd0be3b264b4963d1.hazirbilgi.net",
+      "IsVerified": true,
+      "Url": "https://www.hazirbilgi.net/"
+    }
+  ]
+}

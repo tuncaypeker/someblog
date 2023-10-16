@@ -1,0 +1,23 @@
+{
+  "request": {
+    "keyword": "yatak odasý için hangi renk"
+  },
+  "response": {
+    {
+      "IsSucceed": true,
+      "Message": "",
+      "Data": [
+        {
+          "BroadImpressions": 597,
+          "Impressions": 597,
+          "Query": "yatak odasý takýmlarý"
+        },
+        {
+          "BroadImpressions": 745,
+          "Impressions": 72,
+          "Query": "yatak odasý"
+        }
+      ]
+    }
+  }
+}

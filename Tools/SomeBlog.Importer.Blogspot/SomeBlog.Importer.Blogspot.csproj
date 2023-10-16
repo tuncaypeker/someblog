@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Logging\SomeBlog.Infrastructure.Logging.DummyLog\SomeBlog.Infrastructure.Logging.DummyLog.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\SomeBlog.Infrastructure.Extensios\SomeBlog.Infrastructure.Extensions.csproj" />
+    <ProjectReference Include="..\..\SomeBlog.Data\SomeBlog.Data.csproj" />
+    <ProjectReference Include="..\..\SomeBlog.Model\SomeBlog.Model.csproj" />
+  </ItemGroup>
+
+</Project>

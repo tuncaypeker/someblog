@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "SomeBlog.Integration.GoogleAnalytics": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:49294;http://localhost:49295"
+    }
+  }
+}

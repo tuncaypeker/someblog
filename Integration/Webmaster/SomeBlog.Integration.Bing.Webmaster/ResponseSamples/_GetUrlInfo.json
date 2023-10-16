@@ -1,0 +1,20 @@
+{
+  "request": {
+    "domain": "https://evdekorasyonlari.net",
+    "page": "https://evdekorasyonlari.net/sararan-hali-nasil-temizlenir/"
+  },
+  "response": {
+    "IsSucceed": true,
+    "Message": "",
+    "Data": {
+      "AnchorCount": 0,
+      "DiscoveryDate": "2021-08-14T00:00:00",
+      "DocumentSize": 68118,
+      "HttpStatus": 301,
+      "IsPage": true,
+      "LastCrawledDate": "2021-09-12T08:00:05",
+      "TotalChildUrlCount": 0,
+      "Url": "https://evdekorasyonlari.net/sararan-hali-nasil-temizlenir/"
+    }
+  }
+}

@@ -12,7 +12,7 @@ namespace SomeBlog.AI.ChatGpt
         private readonly RestClient _client;
 
         // Constructor that takes the API key as a parameter
-        public ChatGPTClient(string apiKey = "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")
+        public ChatGPTClient(string apiKey)
         {
             _apiKey = apiKey;
             // Initialize the RestClient with the ChatGPT API endpoint

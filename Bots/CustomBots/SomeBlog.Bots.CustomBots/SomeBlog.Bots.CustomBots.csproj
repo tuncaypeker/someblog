@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Infrastructure\SomeBlog.Infrastructure\SomeBlog.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\SomeBlog.Data\SomeBlog.Data.csproj" />
+    <ProjectReference Include="..\..\..\SomeBlog.Model\SomeBlog.Model.csproj" />
+  </ItemGroup>
+
+</Project>

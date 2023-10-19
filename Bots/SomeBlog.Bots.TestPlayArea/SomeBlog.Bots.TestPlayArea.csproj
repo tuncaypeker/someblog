@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSharpVitamins.ShortGuid" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+    <PackageReference Include="OpenAI" Version="1.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\AI\SomeBlog.AI.ChatGpt\SomeBlog.AI.ChatGpt.csproj" />
+    <ProjectReference Include="..\..\Blogspot\SomeBlog.Blogspot.Api\SomeBlog.Blogspot.Api.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Logging\SomeBlog.Infrastructure.Logging.DummyLog\SomeBlog.Infrastructure.Logging.DummyLog.csproj" />
+    <ProjectReference Include="..\..\SomeBlog.Data\SomeBlog.Data.csproj" />
+    <ProjectReference Include="..\..\SomeBlog.Model\SomeBlog.Model.csproj" />
+  </ItemGroup>
+  
+</Project>
